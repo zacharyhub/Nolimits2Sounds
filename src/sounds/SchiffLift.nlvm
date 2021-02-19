@@ -1,0 +1,39 @@
+package sounds;
+
+import com.nolimitscoaster.*;
+
+import api.*;
+import lib.*;
+
+public class SCHIFFLift extends TrackedSound
+{
+	public SCHIFFLift(Simulator sim, Coaster coaster) // The constructor of your Sound-Class
+	{
+		super(sim, coaster, Sections.SCHIFF_Lift); // Resource ID goes in here
+	}
+
+	public bool shouldPlay(Coaster coaster, Train train)
+	{
+		// Mandatory. The sound will only play as long as this method returns true.
+	}
+
+	public void onInit(StaticSound sound)
+	{
+		// Configure the sound in here. Stuff like Distance Parameters go in here.
+	}
+
+	public void onFrame(StaticSound sound, Train train)
+	{
+		// This gets called each frame. If your sound pitch depends on the speed you can configure stuff in here.
+	}
+
+	public void play(StaticSound sound)
+	{
+		// This gets called when your sound starts playing. If you want your sound to fade in you can do that in here.
+	}
+
+	public void stop(StaticSound sound)
+	{
+		// This gets called when your sound stops playing. Fading out would go in here.
+	}
+}
