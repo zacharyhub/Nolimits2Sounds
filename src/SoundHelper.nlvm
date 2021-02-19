@@ -54,6 +54,7 @@ public class SoundHelper
 			SCHIFFLift lift = new SCHIFFLift(sim, coaster);
 			soundFound = true;
 		}
+		if(hasSound(coaster, Sections.SCHIFF_ROAR))
 		{
 			SCHIFFRoar roar = new SCHIFFRoar(sim, coaster);
 			soundFound = true;
