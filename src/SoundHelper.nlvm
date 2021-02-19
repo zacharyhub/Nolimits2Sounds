@@ -47,7 +47,18 @@ public class SoundHelper
 			RMCLift lift = new RMCLift(sim, coaster);
 			soundFound = true;
 		}
-
+		
+		// SCHIFF
+		if(hasSound(coaster, Sections.SCHIFF_LIFT))
+		{
+			SCHIFFLift lift = new SCHIFFLift(sim, coaster);
+			soundFound = true;
+		}
+		{
+			SCHIFFRoar roar = new SCHIFFRoar(sim, coaster);
+			soundFound = true;
+		}
+		
 		// JET
 		if(hasSound(coaster, Sections.JET_FUNKY_LIFT))
 		{
