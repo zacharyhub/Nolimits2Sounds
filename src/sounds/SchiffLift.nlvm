@@ -5,9 +5,9 @@ import com.nolimitscoaster.*;
 import api.*;
 import lib.*;
 
-public class SchiffLift extends TrackedSound
+public class SCHIFFLift extends TrackedSound
 {
-	public SchiffLift(Simulator sim, Coaster coaster) // The constructor of your Sound-Class
+	public SCHIFFLift(Simulator sim, Coaster coaster) // The constructor of your Sound-Class
 	{
 		super(sim, coaster, Sections.SCHIFF_Lift); // Resource ID goes in here
 	}
