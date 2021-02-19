@@ -51,12 +51,12 @@ public class SoundHelper
 		// SCHIFF
 		if(hasSound(coaster, Sections.SCHIFF_LIFT))
 		{
-			SCHIFFLift lift = new SCHIFFLift(sim, coaster);
+			SchiffLift lift = new SchiffLift(sim, coaster);
 			soundFound = true;
 		}
 		if(hasSound(coaster, Sections.SCHIFF_ROAR))
 		{
-			SCHIFFRoar roar = new SCHIFFRoar(sim, coaster);
+			SchiffRoar roar = new SchiffRoar(sim, coaster);
 			soundFound = true;
 		}
 		
