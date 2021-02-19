@@ -7,7 +7,7 @@ import lib.*;
 
 public class SCHIFFLift extends TrackedSound
 {
-	public SCHIFFLift(Simulator sim, Coaster coaster) // The constructor of your Sound-Class
+	public SchiffLift(Simulator sim, Coaster coaster) // The constructor of your Sound-Class
 	{
 		super(sim, coaster, Sections.SCHIFF_Lift); // Resource ID goes in here
 	}
